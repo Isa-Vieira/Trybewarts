@@ -12,5 +12,4 @@ function clicbotao() {
 }
 botao1.addEventListener('click', clicbotao);
 
-/* }; */
-/* clicbotao() */
+clicbotao();
