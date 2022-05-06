@@ -6,31 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     
-    <title>Document</title>
+    <title> Project trybewarts</title>
   </head>
   <body>
     <header class="header">
       <img
-        class="trybewarts-header-logo"
-        src="/images/trybewarts-header-logo.svg"
-        alt=""
-      />
+      class="trybewarts-header-logo"src="/images/trybewarts-header-logo.svg"
+        alt=""/>
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login" action="">
-        <input  class="email" type="text" name="email" placeholder="Email" />
-        <input
-          class="senha"
-          type="password"
-          name="password"
-          placeholder="Senha"
-        />
+      <input  class="email" type="text" name="email" placeholder="Email"/>
+      <input class="senha"type="password"name="password"placeholder="Senha"/>
         <button class="botao-entrar">Entrar</button>
       </form>
     </header>
     <main>
     <form  id="evaluation-form" action="">
-      <img  id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+      <div class="name">
+        <input type="text" placeholder="Nome" id="input-name">
+        <input type="text" placeholder="Sobrenome" id="input-lastname">
+      </div>
+      <div>
+        <input type="text" placeholder="Email" id="input-email">
+       
+        <select id="house">
+        <option text="Gitnória" value="Gitnória" id="gitnoria-house" >Gitnória</option>
+
+        <option text="Reactpuff" value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
+
+        <option text="Corvinode" value="Corvinode" id="corvinode-house" >Corvinode</option>
+
+        <option text="Pytherina" value="Pytherina" id="pytherina-house" >Pytherina</option>
+        </select>
+      </div>
     </form>
+    <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="">
     </main>
 
     
