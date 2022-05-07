@@ -13,3 +13,18 @@ function clicbotao() {
 botao1.addEventListener('click', clicbotao);
 
 clicbotao();
+
+const input = document.querySelector('#agreement');
+const botao = document.querySelector('#submit-btn');
+const click = input.checked;
+botao.disabled = true;
+
+function desabilita() {
+  if (click === false) {
+    botao.disabled = false;
+  } else {
+    botao.disabled = true;
+  }
+}
+
+input.addEventListener('click', desabilita);
