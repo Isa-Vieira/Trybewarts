@@ -1,3 +1,4 @@
+/* stylelint-disable indentation */
 * {
   margin: 0;
   padding: 0;
@@ -68,7 +69,7 @@ h2 {
   height: 30px;
   align-items: center;
 }
- /*
+
 .email {
   display: flex;
   height: 30px;
@@ -81,13 +82,14 @@ h2 {
   height: 30px;
   border-radius: 6px;
   margin: 2px;
+
 }
 
 .name {
   display: flex;
   height: 30px;
-  border-radius: 8px;
-  margin: 2px;
+  border-radius: 10%;
+  margin: 1px;
 }
 
 .myDiv {
@@ -100,7 +102,7 @@ h2 {
 #label-family {
   display: flex;
   flex-direction: row;
-} */
+}
 
 footer {
   display: flex;
@@ -109,4 +111,15 @@ footer {
   align-items: center;
   background-color: rgb(87, 87, 87);
   color: white;
+}
+
+.familia {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloquinhos {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
