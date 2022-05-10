@@ -9,7 +9,6 @@
     <title> Project trybewarts</title>
   </head>
   <body>
-  
     <header class="header">
       <img
       class="trybewarts-header-logo"src="/images/trybewarts-header-logo.svg"
@@ -24,12 +23,12 @@
     <main>
      
     <form  id="evaluation-form" action="">
-      <h1>Formulário de Avaliação</h1>
+      <h2>Formulário de Avaliação</h2>
       <div class="name">
         <input type="text" placeholder="Nome" id="input-name">
         <input type="text" placeholder="Sobrenome" id="input-lastname">
       </div>
-      <div>
+      <div class="myDiv">
         <input type="text" placeholder="Email" id="input-email">
        
         <select id="house">
@@ -42,19 +41,20 @@
         <option text="Pytherina" value="Pytherina" id="pytherina-house" >Pytherina</option>
         </select>
       </div>
+      
       <label id="label-family" for="">Qual sua família?</label>
       <input type="radio" name="family" value="Frontend">
       <input type="radio" name="family" value="Backend">
       <input type="radio" name="family" value="FullStack">
 
       <label  id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
-      <input type="checkbox" name="" id="H" value="HoFs">
-      <input type="checkbox" name="" id="J" value="Jest">
-      <input type="checkbox" name="" id="P" value="Promises">
-      <input type="checkbox" name="" id="R" value="React">
-      <input type="checkbox" name="" id="S" value="SQL">
-      <input type="checkbox" name="" id="PT" value="Python">
-
+      <input type="checkbox" name="HoFs" id="H" value="HoFs">
+      <input type="checkbox" name="Jest" id="J" value="Jest">
+      <input type="checkbox" name="Promises" id="P" value="Promises">
+      <input type="checkbox" name="React" id="R" value="React">
+      <input type="checkbox" name="SQL" id="S" value="SQL">
+      <input type="checkbox" name="Python" id="PT" value="Python">
+     <br>
       <label for="" id="label-rate">Como você avalia a Trybewarts?
         <input type="radio" id="radio-buttons1" name="rate" value="valor">1
         <input type="radio" id="radio-buttons2" name="rate" value="valor">2
@@ -67,11 +67,11 @@
         <input type="radio" id="radio-buttons9" name="rate" value="valor">9
         <input type="radio" id="radio-buttons10" name="rate" value="valor">10
       </label>
-     
+     <br>
       <label id="couter" class="textarea" value="500" >Deixe seu comentário: </label>
-      <textarea  id="textarea" maxlength="500"></textarea>
+      <textarea  id="textarea" maxlength="500" cols="10" rows="8"></textarea >
       <p id="counter" value="500">500</p>
-     
+     <br>
       <div>
     <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
     <input id="agreement" type="checkbox">
