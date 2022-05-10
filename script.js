@@ -14,6 +14,7 @@ botao1.addEventListener('click', clicbotao);
 
 clicbotao();
 
+
 const input = document.querySelector('#agreement');
 const botao = document.querySelector('#submit-btn');
 const click = input.checked;
@@ -28,3 +29,15 @@ function desabilita() {
 }
 
 input.addEventListener('click', desabilita);
+
+
+const limitetextarea = document.querySelector('#textarea');
+console.log(limitetextarea);
+limitetextarea.addEventListener('keyup', (e) => {
+  const input2 = limitetextarea.value.length;
+  const quantmax = 500;
+  const decrementando = document.querySelector('#counter');
+  decrementando.innerText = quantmax - input2;
+ 
+  
+});

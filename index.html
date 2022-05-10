@@ -9,6 +9,7 @@
     <title> Project trybewarts</title>
   </head>
   <body>
+  
     <header class="header">
       <img
       class="trybewarts-header-logo"src="/images/trybewarts-header-logo.svg"
@@ -21,7 +22,9 @@
       </form>
     </header>
     <main>
+     
     <form  id="evaluation-form" action="">
+      <h1>Formulário de Avaliação</h1>
       <div class="name">
         <input type="text" placeholder="Nome" id="input-name">
         <input type="text" placeholder="Sobrenome" id="input-lastname">
@@ -50,23 +53,24 @@
       <input type="checkbox" name="" id="P" value="Promises">
       <input type="checkbox" name="" id="R" value="React">
       <input type="checkbox" name="" id="S" value="SQL">
-      <input type="checkbox" name="" id="P" value="Python">
+      <input type="checkbox" name="" id="PT" value="Python">
 
       <label for="" id="label-rate">Como você avalia a Trybewarts?
-        <input type="radio" id="radio-buttons" name="rate" value="valor">1
-        <input type="radio" id="radio-buttons" name="rate" value="valor">2
-        <input type="radio" id="radio-buttons" name="rate" value="valor">3
-        <input type="radio" id="radio-buttons" name="rate" value="valor">4
-        <input type="radio" id="radio-buttons" name="rate" value="valor">5
-        <input type="radio" id="radio-buttons" name="rate" value="valor">6
-        <input type="radio" id="radio-buttons" name="rate" value="valor">7
-        <input type="radio" id="radio-buttons" name="rate" value="valor">8
-        <input type="radio" id="radio-buttons" name="rate" value="valor">9
-        <input type="radio" id="radio-buttons" name="rate" value="valor">10
+        <input type="radio" id="radio-buttons1" name="rate" value="valor">1
+        <input type="radio" id="radio-buttons2" name="rate" value="valor">2
+        <input type="radio" id="radio-buttons3" name="rate" value="valor">3
+        <input type="radio" id="radio-buttons4" name="rate" value="valor">4
+        <input type="radio" id="radio-buttons5" name="rate" value="valor">5
+        <input type="radio" id="radio-buttons6" name="rate" value="valor">6
+        <input type="radio" id="radio-buttons7" name="rate" value="valor">7
+        <input type="radio" id="radio-buttons8" name="rate" value="valor">8
+        <input type="radio" id="radio-buttons9" name="rate" value="valor">9
+        <input type="radio" id="radio-buttons10" name="rate" value="valor">10
       </label>
      
-      <label class="textarea" for="">Deixe seu comentário: </label>
-      <textarea maxlength="500"></textarea>
+      <label id="couter" class="textarea" value="500" >Deixe seu comentário: </label>
+      <textarea  id="textarea" maxlength="500"></textarea>
+      <p id="counter" value="500">500</p>
      
       <div>
     <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
@@ -78,6 +82,7 @@
     <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="">
     </main>
    
+    
     <footer>Direitos reservados à Trybewarts©</footer>
     
     <script src="script.js"></script>
